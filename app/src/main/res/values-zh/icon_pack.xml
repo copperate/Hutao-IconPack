@@ -21,59 +21,82 @@
     <!-- Just KEEP IT EMPTY BUT DO NOT DELETE IT if you do not want to collect app name list. -->
     <string-array name="icon_labels">
         <!-- A -->
-        <!-- B -->
+        <item>支付宝</item>
+        <item>高德地图</item>
+        <item>备份与恢复</item>
+        <item>百度搜索</item>
+        <item>论坛</item>
+        <item>哔哩哔哩</item>
         <item>浏览器</item>
-        <!-- C -->
-        <item>日历</item>
         <item>计算器</item>
-
+        <item>行事历</item>
         <item>相机</item>
         <item>时钟</item>
+        <item>云服务</item>
         <item>指南针</item>
         <item>联系人</item>
-        <!-- D -->
+        <item>携程旅行</item>
+        <item>大众点评</item>
+        <item>电话</item>
+        <item>抖音</item>
+        <item>番茄小说</item>
         <item>抽屉图标</item>
-        <item>拨号</item>
-        <!-- E -->
-        <item>互传</item>
-        <!-- F -->
-        <!-- G -->
-        <item>相册</item>
-        <!-- H -->
+        <item>抽屉图标1</item>
+        <item>抽屉图标2</item>
+        <item>抽屉图标3</item>
+        <item>抽屉图标4</item>
+        <item>抽屉图标5</item>
+        <item>抽屉图标6</item>
+        <item>抽屉图标7</item>
+        <item>抽屉图标8</item>
+        <item>家庭守护</item>
+        <item>文件管理</item>
+        <item>火狐浏览器</item>
+        <item>图库</item>
+        <item>游戏中心</item>
+        <item>游戏空间</item>
         <item>健康</item>
-        <!-- I -->
-        <!-- J -->
-        <!-- K -->
-        <!-- L -->
-        <!-- M -->
-        <item>信息</item>
+        <item>家庭</item>
+        <item>米游社</item>
+        <item>胡桃·图标包 ✔</item>
+        <item>资料夹图标</item>
+        <item>京东</item>
+        <item>快手</item>
+        <item>邮件</item>
+        <item>市场</item>
         <item>消息</item>
         <item>音乐</item>
-        <item>音乐播放器</item>
-        <!-- N -->
-        <item>记事本</item>
-        <!-- O -->
-        <!-- P -->
-        <item>电话</item>
-        <!-- Q -->
-        <!-- R -->
+        <item>便笺</item>
+        <item>拼多多</item>
+        <item>Play游戏</item>
+        <item>QQ</item>
+        <item>腾讯视频</item>
+        <item>腾讯新闻</item>
+        <item>阅读</item>
         <item>录音机</item>
-        <!-- S -->
-        <item>设置</item>
-        <item>短信</item>
-        <!-- T -->
-        <!-- U -->
-        <!-- V -->
-        <!-- W -->
+        <item>安全</item>
+        <item>设定</item>
+        <item>捷径</item>
+        <item>运营商STK工具</item>
+        <item>商店</item>
+        <item>砂糖·图标包</item>
+        <item>砂糖·图标包(Q版)</item>
+        <item>淘宝</item>
+        <item>主题</item>
+        <item>天眼查</item>
+        <item>头条</item>
+        <item>用户中心</item>
+        <item>视频</item>
+        <item>视频编辑器</item>
+        <item>语音助手</item>
         <item>卡包</item>
         <item>天气</item>
-        <!-- X -->
-        <!-- Y -->
-        <!-- Z -->
-        <item>家居</item>
-        <item>遥控器</item>
-        <item>捷径</item>
-        <item>语音助手</item>
+        <item>微博</item>
+        <item>微信</item>
+        <item>Ximalaya</item>
+        <item>原神</item>
+        <item>原神 Alt</item>
+        <item>知乎</item>
     </string-array>
 
 </resources>

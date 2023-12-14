@@ -109,7 +109,7 @@ public final class BottomNavigationBehavior<V extends View> extends VerticalScro
     @Nullable
     private ViewGroup findTabLayout(@NonNull View child) {
         if (mTabLayoutId == 0) return null;
-        return (ViewGroup) child.findViewById(mTabLayoutId);
+        return child.findViewById(mTabLayoutId);
     }
 
     @Override

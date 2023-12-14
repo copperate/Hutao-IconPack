@@ -32,7 +32,7 @@ import java.util.List;
  */
 
 public class RetainedFragment extends Fragment {
-    private SparseArray<List<IconBean>> iconListArray = new SparseArray<>();
+    private final SparseArray<List<IconBean>> iconListArray = new SparseArray<>();
     private List<AppBean> appList = null;
     private List<AppBean> reqTopList = null;
 

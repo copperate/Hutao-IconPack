@@ -21,127 +21,171 @@
     <!-- Names like "Calendar", "500px", "camera_360" are not allowed or recommended. -->
     <string-array name="icons" translatable="false">
         <!-- A -->
-        <!-- B -->
+        <item>alipay</item>
+        <item>amap</item>
+        <item>backuprestore</item>
+        <item>baidu_searchbox</item>
+        <item>bbs</item>
+        <item>bilibili</item>
         <item>browser</item>
-        <!-- C -->
-        <item>calendar</item>
         <item>calculator</item>
-
+        <item>calendar</item>
         <item>camera</item>
         <item>clock</item>
+        <item>cloudservice</item>
         <item>compass</item>
         <item>contact</item>
-        <!-- D -->
-        <item>drawer</item>
+        <item>ctrip</item>
+        <item>dazhongdianping</item>
         <item>dialer</item>
-        <!-- E -->
-        <item>easyshare</item>
-        <!-- F -->
-        <!-- G -->
+        <item>douyin</item>
+        <item>dragon_read</item>
+        <item>drawer</item>
+        <item>drawer_alt_1</item>
+        <item>drawer_alt_2</item>
+        <item>drawer_alt_3</item>
+        <item>drawer_alt_4</item>
+        <item>drawer_alt_5</item>
+        <item>drawer_alt_6</item>
+        <item>drawer_alt_7</item>
+        <item>drawer_alt_8</item>
+        <item>familyguard</item>
+        <item>filemanager</item>
+        <item>firefox</item>
         <item>gallery</item>
-        <!-- H -->
+        <item>gamecenter</item>
+        <item>gamespace</item>
         <item>health</item>
-        <!-- I -->
-        <!-- J -->
-        <!-- K -->
-        <!-- L -->
-        <!-- M -->
+        <item>home</item>
+        <item>hoyolab</item>
+        <item>hutaoiconpack</item>
+        <item>icon_folder</item>
+        <item>jingdong</item>
+        <item>kuaishou</item>
+        <item>mail</item>
+        <item>market</item>
         <item>message</item>
-        <item>messaging</item>
         <item>music</item>
-        <item>musicplayer</item>
-        <!-- N -->
         <item>notes</item>
-        <!-- O -->
-        <!-- P -->
-        <item>phone</item>
-        <!-- Q -->
-        <!-- R -->
+        <item>pinduoduo</item>
+        <item>playgames</item>
+        <item>qq</item>
+        <item>qqlive</item>
+        <item>qqnews</item>
+        <item>reader</item>
         <item>recorder</item>
-        <!-- S -->
+        <item>security</item>
         <item>settings</item>
-        <item>sms</item>
-        <!-- T -->
-        <!-- U -->
-        <!-- V -->
-        <!-- W -->
+        <item>shortcuts</item>
+        <item>stktool</item>
+        <item>store</item>
+        <item>sucroseiconpack</item>
+        <item>sucroseiconpackchibi</item>
+        <item>taobao</item>
+        <item>theme</item>
+        <item>tianyancha</item>
+        <item>toutiao</item>
+        <item>usercenter</item>
+        <item>video</item>
+        <item>videoeditor</item>
+        <item>voiceassist</item>
         <item>wallet</item>
         <item>weather</item>
-        <!-- X -->
-        <!-- Y -->
-        <!-- Z -->
-        <item>z_home</item>
-        <item>z_remotecontroller</item>
-        <item>z_shortcuts</item>
-        <item>z_voiceassistant</item>
+        <item>weibo</item>
+        <item>weixin</item>
+        <item>ximalaya</item>
+        <item>yuanshen</item>
+        <item>yuanshen_alt</item>
+        <item>zhihu</item>
     </string-array>
 
     <!-- Corresponding app name list of all icons in /res/drawable-nodpi/ -->
     <!-- Just KEEP IT EMPTY BUT DO NOT DELETE IT if you do not want to collect app name list. -->
     <string-array name="icon_labels">
         <!-- A -->
-        <!-- B -->
+        <item>Alipay</item>
+        <item>Amap</item>
+        <item>Backup&amp;Restore</item>
+        <item>Baidu Search App</item>
+        <item>BBS</item>
+        <item>Bilibili</item>
         <item>Browser</item>
-        <!-- C -->
-        <item>Calendar</item>
         <item>Calculator</item>
-
+        <item>Calendar</item>
         <item>Camera</item>
         <item>Clock</item>
+        <item>Cloud Service</item>
         <item>Compass</item>
         <item>Contact</item>
-        <!-- D -->
-        <item>Drawer Icon</item>
+        <item>Ctrip</item>
+        <item>DaZhongDianPing</item>
         <item>Dialer</item>
-        <!-- E -->
-        <item>Easyshare</item>
-        <!-- F -->
-        <!-- G -->
+        <item>Douyin</item>
+        <item>Dragon_read</item>
+        <item>Drawer</item>
+        <item>drawer_alt_1</item>
+        <item>drawer_alt_2</item>
+        <item>drawer_alt_3</item>
+        <item>drawer_alt_4</item>
+        <item>drawer_alt_5</item>
+        <item>drawer_alt_6</item>
+        <item>drawer_alt_7</item>
+        <item>drawer_alt_8</item>
+        <item>Family Guard</item>
+        <item>File Manager</item>
+        <item>Firefox</item>
         <item>Gallery</item>
-        <!-- H -->
+        <item>Game Center</item>
+        <item>Game Space</item>
         <item>Health</item>
-        <!-- I -->
-        <!-- J -->
-        <!-- K -->
-        <!-- L -->
-        <!-- M -->
+        <item>Home</item>
+        <item>Hoyolab</item>
+        <item>Hutao Iconpack ✔</item>
+        <item>Folder Icon</item>
+        <item>Jing Dong</item>
+        <item>Kwai</item>
+        <item>Mail</item>
+        <item>Market</item>
         <item>Message</item>
-        <item>Messaging</item>
         <item>Music</item>
-        <item>Music Player</item>
-        <!-- N -->
         <item>Notes</item>
-        <!-- O -->
-        <!-- P -->
-        <item>Phone</item>
-        <!-- Q -->
-        <!-- R -->
+        <item>Pinduoduo</item>
+        <item>Play Games</item>
+        <item>QQ</item>
+        <item>QQ live</item>
+        <item>Tencent News</item>
+        <item>Reader</item>
         <item>Recorder</item>
-        <!-- S -->
+        <item>Security</item>
         <item>Settings</item>
-        <item>SMS</item>
-        <!-- T -->
-        <!-- U -->
-        <!-- V -->
-        <!-- W -->
+        <item>Shortcuts</item>
+        <item>Stktool</item>
+        <item>Store</item>
+        <item>Sucrose Iconpack</item>
+        <item>Sucrose Iconpack(Chibi)</item>
+        <item>Taobao</item>
+        <item>Theme</item>
+        <item>Skyeye</item>
+        <item>Toutiao</item>
+        <item>User Center</item>
+        <item>Video</item>
+        <item>Video Editor</item>
+        <item>Voice Assistant</item>
         <item>Wallet</item>
         <item>Weather</item>
-        <!-- X -->
-        <!-- Y -->
-        <!-- Z -->
-        <item>Home</item>
-        <item>Remote Controller</item>
-        <item>Shortcuts</item>
-        <item>Voice Assistant</item>
+        <item>Weibo</item>
+        <item>Wechat</item>
+        <item>Ximalaya</item>
+        <item>Yuanshen</item>
+        <item>Genshin Impact</item>
+        <item>Zhihu</item>
+
     </string-array>
 
     <!-- Latest icons (Make sure it's from the "icons" array) -->
     <!-- Just KEEP IT EMPTY BUT DO NOT DELETE IT if you do not want to show additional icons of new version app. -->
     <string-array name="latest_icons" translatable="false">
-        <item>z_home</item>
-        <item>z_remotecontroller</item>
-        <item>z_shortcuts</item>
-        <item>z_voiceassistant</item>
+
     </string-array>
 
 </resources>

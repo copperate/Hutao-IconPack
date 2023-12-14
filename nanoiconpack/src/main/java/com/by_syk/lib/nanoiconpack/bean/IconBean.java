@@ -46,7 +46,7 @@ public class IconBean implements Serializable, Comparable<IconBean> {
     private String labelPinyin;
 
     @NonNull
-    private Set<Component> components = new HashSet<>();
+    private final Set<Component> components = new HashSet<>();
 
     // extra
     // Mark that the icon is the default one recorded in appfilter.xml.
@@ -147,10 +147,10 @@ public class IconBean implements Serializable, Comparable<IconBean> {
 
     public class Component implements Serializable {
         @NonNull
-        private String pkg;
+        private final String pkg;
 
         @NonNull
-        private String launcher;
+        private final String launcher;
 
         // extra
         @Nullable

@@ -51,7 +51,6 @@ import com.by_syk.lib.nanoiconpack.util.impl.NanoServerService;
 import com.by_syk.lib.nanoiconpack.util.adapter.ReqStatsAdapter;
 import com.by_syk.lib.nanoiconpack.widget.DividerItemDecoration;
 import com.by_syk.lib.sp.SP;
-import com.coolapk.market.util.AuthUtils;
 import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.wang.avi.AVLoadingIndicatorView;
@@ -86,7 +85,7 @@ public class ReqStatsFragment extends Fragment {
 
     private static final int[] LIMIT_NUM_ARR = {32, 64, 128};
 
-    private static Handler handler = new Handler();
+    private static final Handler handler = new Handler();
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -142,7 +141,7 @@ public class ReqStatsFragment extends Fragment {
     private void initRecycler() {
         layoutManager = new LinearLayoutManager(getContext());
 
-        FastScrollRecyclerView recyclerView = (FastScrollRecyclerView) contentView.findViewById(R.id.recycler_view);
+        FastScrollRecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
                 DividerItemDecoration.VERTICAL));
@@ -186,7 +185,7 @@ public class ReqStatsFragment extends Fragment {
     }
 
     private void initSwipeRefresh() {
-        swipeRefreshLayout = (SwipeRefreshLayout) contentView.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout = contentView.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(ExtraUtil.fetchColor(getContext(), R.attr.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -445,8 +444,7 @@ public class ReqStatsFragment extends Fragment {
                     serverService = RetrofitHelper.getInstance().init4Coolapk()
                             .getService4Coolapk(CoolApkServerService.class);
                 }
-                Call<CoolApkApkDetailBean> call = serverService.getCoolApkApkDetail(AuthUtils
-                        .getAS(UUID.randomUUID().toString()), bean.getPkg());
+               Call<CoolApkApkDetailBean> call = null; //serverService.getCoolApkApkDetail(AuthUtils.getAS(UUID.randomUUID().toString()), bean.getPkg());
                 try {
                     CoolApkApkDetailBean apkDetailBean = call.execute().body();
                     if (apkDetailBean != null && apkDetailBean.getData() != null) {

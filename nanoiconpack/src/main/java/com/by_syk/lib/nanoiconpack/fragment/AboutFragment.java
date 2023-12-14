@@ -52,10 +52,10 @@ public class AboutFragment extends PreferenceFragmentCompat implements Preferenc
     private Preference prefSupportDonate;
     private Preference prefSupportSponsors;
 
-    private ArrayList<DonateBean> sponsorList = new ArrayList<>();
+    private final ArrayList<DonateBean> sponsorList = new ArrayList<>();
 
-    private static Pattern sponsorPattern = Pattern.compile("\\[.*?\\]\\(usr:(.*?)\\)");
-    private static Pattern codePattern = Pattern.compile("\\[.*?\\]\\((.+?):(.*?)\\)");
+    private static final Pattern sponsorPattern = Pattern.compile("\\[.*?\\]\\(usr:(.*?)\\)");
+    private static final Pattern codePattern = Pattern.compile("\\[.*?\\]\\((.+?):(.*?)\\)");
 
     private static final String PREFERENCE_ICONS = "icons";
     private static final String PREFERENCE_ICONS_NOTE = "iconsNote";

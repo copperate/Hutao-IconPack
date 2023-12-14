@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "tk.dropr.iconpack.hutaoicon",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 100100,
+      "versionName": "1.1.0 beta",
+      "outputFile": "tk.dropr.iconpack.hutaoicon_v1.1.0 beta(100100).apk"
+    }
+  ],
+  "elementType": "File"
+}

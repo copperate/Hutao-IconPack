@@ -85,7 +85,7 @@ public class AppsFragment extends Fragment {
 
     private RetainedFragment retainedFragment;
 
-    private static Handler handler = new Handler();
+    private static final Handler handler = new Handler();
 
     private OnLoadDoneListener onLoadDoneListener;
 
@@ -171,7 +171,7 @@ public class AppsFragment extends Fragment {
     private void initRecycler() {
         layoutManager = new LinearLayoutManager(getContext());
 
-        FastScrollRecyclerView recyclerView = (FastScrollRecyclerView) contentView.findViewById(R.id.recycler_view);
+        FastScrollRecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
                 DividerItemDecoration.VERTICAL));
@@ -215,7 +215,7 @@ public class AppsFragment extends Fragment {
     }
 
     private void initSwipeRefresh() {
-        swipeRefreshLayout = (SwipeRefreshLayout) contentView.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout = contentView.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(ExtraUtil.fetchColor(getContext(), R.attr.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -446,7 +446,7 @@ public class AppsFragment extends Fragment {
     }
 
     private class SubmitReqTask extends AsyncTask<String, Integer, Boolean> {
-        private int pos;
+        private final int pos;
 
         SubmitReqTask(int pos) {
             this.pos = pos;

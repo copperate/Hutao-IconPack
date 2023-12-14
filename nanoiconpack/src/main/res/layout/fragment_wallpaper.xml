@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.WallpaperFragment">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginBottom="160px">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/WallpaperFrame1"
+                    android:onClick="WallpaperClicked1">
+
+                <ImageView
+                        android:src="@drawable/wallpaper_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" android:id="@+id/WallpaperPreview1" android:layout_weight="1"
+                        android:layout_gravity="right|top|left" android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop"/>
+                <TextView
+                        android:text="@string/wallpaper_01_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/WallpaperNametextView1"
+                        android:layout_marginBottom="0dp" android:layout_gravity="bottom|right|left"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:background="#59353535" android:textColor="#FFFFFF"/>
+            </FrameLayout>
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/WallpaperFrame2">
+
+                <ImageView
+                        android:src="@drawable/wallpaper_02"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" android:id="@+id/WallpaperPreview2"
+                        android:layout_gravity="right|top|left" android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop" android:onClick="WallpaperClicked2"/>
+                <TextView
+                        android:text="@string/wallpaper_02_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/WallpaperNametextView2"
+                        android:layout_marginBottom="0dp" android:layout_gravity="bottom|right|left"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:background="#59353535" android:textColor="#FFFFFF"/>
+            </FrameLayout>
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:id="@+id/WallpaperFrame3">
+
+                <ImageView
+                        android:src="@drawable/wallpaper_03"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" android:id="@+id/WallpaperPreview3"
+                        android:layout_gravity="right|top|left" android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop" android:onClick="WallpaperClicked3"/>
+                <TextView
+                        android:text="@string/wallpaper_03_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/WallpaperNametextView3"
+                        android:layout_marginBottom="0dp" android:layout_gravity="bottom|right|left"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:background="#59353535" android:textColor="#FFFFFF"/>
+            </FrameLayout>
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:id="@+id/WallpaperFrame4">
+
+                <ImageView
+                        android:src="@drawable/wallpaper_04"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" android:id="@+id/WallpaperPreview4"
+                        android:layout_gravity="right|top|left" android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop" android:onClick="WallpaperClicked4"/>
+                <TextView
+                        android:text="@string/wallpaper_04_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/WallpaperNametextView4"
+                        android:layout_marginBottom="0dp" android:layout_gravity="bottom|right|left"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:background="#59353535" android:textColor="#FFFFFF"/>
+            </FrameLayout>
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:id="@+id/WallpaperFrame5" android:layout_marginBottom="40px">
+
+                <ImageView
+                        android:src="@drawable/wallpaper_05"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" android:id="@+id/WallpaperPreview5"
+                        android:layout_gravity="right|top|left" android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop" android:onClick="WallpaperClicked5"/>
+                <TextView
+                        android:text="@string/wallpaper_05_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/WallpaperNametextView5"
+                        android:layout_marginBottom="0dp" android:layout_gravity="bottom|right|left"
+                        android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                        android:background="#59353535" android:textColor="#FFFFFF"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

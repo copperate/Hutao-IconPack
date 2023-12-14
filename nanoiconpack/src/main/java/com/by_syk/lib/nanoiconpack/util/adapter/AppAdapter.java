@@ -45,9 +45,9 @@ import java.util.List;
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         implements FastScrollRecyclerView.SectionedAdapter,
         View.OnCreateContextMenuListener, MenuItem.OnMenuItemClickListener {
-    private LayoutInflater layoutInflater;
+    private final LayoutInflater layoutInflater;
 
-    private List<AppBean> dataList = new ArrayList<>();
+    private final List<AppBean> dataList = new ArrayList<>();
 
     private boolean enableStatsModule = true;
 
@@ -213,10 +213,10 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             super(itemView);
 
             viewTag = itemView.findViewById(R.id.view_tag);
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
-            tvApp = (TextView) itemView.findViewById(R.id.tv_app);
-            tvComponent = (TextView) itemView.findViewById(R.id.tv_component);
-            tvReqTimes = (TextView) itemView.findViewById(R.id.tv_req_times);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvApp = itemView.findViewById(R.id.tv_app);
+            tvComponent = itemView.findViewById(R.id.tv_component);
+            tvReqTimes = itemView.findViewById(R.id.tv_req_times);
         }
     }
 }

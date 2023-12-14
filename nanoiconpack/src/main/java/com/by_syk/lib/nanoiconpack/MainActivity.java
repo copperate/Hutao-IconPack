@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity
 
         enableStatsModule = getResources().getBoolean(R.bool.enable_req_stats_module);
 
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation_view);
+        viewPager = findViewById(R.id.view_pager);
+        bottomNavigationView = findViewById(R.id.navigation_view);
 
         viewPager.setOffscreenPageLimit(4); // Keep all 3 pages alive.
         viewPager.setPageTransformer(true, new SimplePageTransformer(getResources()
@@ -183,6 +183,23 @@ public class MainActivity extends AppCompatActivity
     {
         Intent WallpaperPreview = new Intent(this,WallpaperViewActivity.class);
         WallpaperPreview.putExtra("BgCode",2);
+        startActivity(WallpaperPreview);
+    }
+    public void WallpaperClicked3(View view)
+    {
+        Intent WallpaperPreview = new Intent(this,WallpaperViewActivity.class);
+        WallpaperPreview.putExtra("BgCode",3);
+        startActivity(WallpaperPreview);
+    }
+    public void WallpaperClicked4(View view)
+    {
+        Intent WallpaperPreview = new Intent(this,WallpaperViewActivity.class);
+        WallpaperPreview.putExtra("BgCode",4);
+        startActivity(WallpaperPreview);
+    }
+    public void WallpaperClicked5(View view) {
+        Intent WallpaperPreview = new Intent(this, WallpaperViewActivity.class);
+        WallpaperPreview.putExtra("BgCode", 5);
         startActivity(WallpaperPreview);
     }
     @Override

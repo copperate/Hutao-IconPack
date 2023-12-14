@@ -44,11 +44,11 @@ import java.util.List;
 
 public class IconAdapter extends RecyclerView.Adapter
         implements FastScrollRecyclerView.SectionedAdapter {
-    private LayoutInflater layoutInflater;
+    private final LayoutInflater layoutInflater;
 
-    private RequestManager glideReqManager;
+    private final RequestManager glideReqManager;
 
-    private List<IconBean> dataList = new ArrayList<>();
+    private final List<IconBean> dataList = new ArrayList<>();
 
     private int gridSize = -1;
 
@@ -170,24 +170,24 @@ public class IconAdapter extends RecyclerView.Adapter
     }
 
     static class IconViewHolder extends RecyclerView.ViewHolder {
-        private ImageView ivIcon;
+        private final ImageView ivIcon;
 
         IconViewHolder(View itemView) {
             super(itemView);
 
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
         }
     }
 
     private static class IconLabelViewHolder extends RecyclerView.ViewHolder {
-        private ImageView ivIcon;
-        private TextView tvLabel;
+        private final ImageView ivIcon;
+        private final TextView tvLabel;
 
         IconLabelViewHolder(View itemView) {
             super(itemView);
 
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
-            tvLabel = (TextView) itemView.findViewById(R.id.tv_label);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvLabel = itemView.findViewById(R.id.tv_label);
         }
     }
 }

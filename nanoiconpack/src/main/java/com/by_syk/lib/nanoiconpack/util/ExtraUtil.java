@@ -58,7 +58,7 @@ import java.util.regex.Pattern;
  */
 
 public class ExtraUtil {
-    private static Pattern codePattern = Pattern.compile("([a-z][A-Z])|([A-Za-z]\\d)|(\\d[A-Za-z])");
+    private static final Pattern codePattern = Pattern.compile("([a-z][A-Z])|([A-Za-z]\\d)|(\\d[A-Za-z])");
 
 //    private static String readFile(InputStream inputStream, boolean keepNewLine) {
 //        BufferedReader bufferedReader = null;
@@ -337,7 +337,7 @@ public class ExtraUtil {
         Matcher matcher = codePattern.matcher(name);
         while (matcher.find()) {
             name = name.replace(matcher.group(0), matcher.group(0).substring(0, 1) + '_'
-                    + matcher.group(0).substring(1, 2));
+                    + matcher.group(0).charAt(1));
         }
         return name.toLowerCase()
                 .replaceAll("'", "")

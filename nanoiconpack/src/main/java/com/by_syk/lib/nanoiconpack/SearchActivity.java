@@ -69,7 +69,7 @@ public class SearchActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        RecyclerView recyclerView = findViewById(R.id.recycler_view);
 
         int[] gridNumAndWidth = calculateGridNumAndWidth();
         recyclerView.setLayoutManager(new GridLayoutManager(this, gridNumAndWidth[0]));

@@ -136,7 +136,7 @@ public class IconDialog extends DialogFragment {
 
         iconGridView = viewContent.findViewById(R.id.icon_grid);
 
-        ivIcon = (ImageView) viewContent.findViewById(R.id.iv_icon);
+        ivIcon = viewContent.findViewById(R.id.iv_icon);
         ivIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -270,7 +270,7 @@ public class IconDialog extends DialogFragment {
             intent.putExtra("icon", bitmap);
             intent.putExtra("android.intent.extra.shortcut.ICON_RESOURCE", iconBean.getId());
             intent.setData(Uri.parse("android.resource://" + getContext().getPackageName()
-                    + "/" + String.valueOf(iconBean.getId())));
+                    + "/" + iconBean.getId()));
             getActivity().setResult(Activity.RESULT_OK, intent);
         } else {
             getActivity().setResult(Activity.RESULT_CANCELED, intent);

@@ -127,5 +127,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="wallpaper_01_title">Wallpaper 01</string>
     <string name="wallpaper_02_title">Wallpaper 02</string>
+    <string name="wallpaper_03_title">Wallpaper 03</string>
+    <string name="wallpaper_04_title">Wallpaper</string>
+    <string name="wallpaper_05_title">Wallpaper</string>
     <string name="title_activity_wallpaper_view">Wallpaper PreView</string>
+
+    <string name="toast_wallpaper_saved">Saved! (Here:/sdcard/Pictures/Wallpaper)</string>
+    <string name="toast_wallpaper_save_failed">Failed to save wallpaper :(</string>
 </resources>

@@ -39,7 +39,7 @@ import java.util.regex.Pattern;
 public abstract class IconsGetter implements Serializable {
     private static List<IconBean> allIconList;
 
-    private static Pattern namePattern = Pattern.compile("(?<=\\D|^)\\d(?=\\D|$)");
+    private static final Pattern namePattern = Pattern.compile("(?<=\\D|^)\\d(?=\\D|$)");
 
     public abstract List<IconBean> getIcons(@NonNull Context context) throws Exception;
 

@@ -18,11 +18,17 @@
 <resources>
 
     <!-- App name -->
-    <string name="app_name">Paimon.Iconpack</string>
+    <string name="app_name">HuTao Iconpack</string>
 
     <!-- For Apex Launcher, means icon pack author -->
     <string name="developer_name">copperate</string>
-
+    <string name="theme_description">
+"胡桃风格图标包，图标和壁纸来源于一加胡桃主题。
+该图标包同时整合壁纸功能，受支持的启动器可直接应用。"
+    </string>
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+    <string name="default_wallpaper">wallpaper_03</string>
     <!-- About information -->
     <!-- Keep its summary EMPTY (NOT DELETE IT) if you don't want to show certain line. -->
     <!-- For summary text, you could try to use such codes:
@@ -38,27 +44,32 @@
     <string name="preference_icons_title_author">Icon pack author</string>
     <string name="preference_icons_summary_author">copperate</string>
     <string name="preference_icons_title_contact">Contact author</string>
-    <string name="preference_icons_summary_contact">[copperate@iris.web](email:copperate@iris.web)</string>
+    <string name="preference_icons_summary_contact">[copperate@iris.web](email:tk.dropr@outlook.com)</string>
     <string name="preference_icons_title_todo_1"></string>
     <string name="preference_icons_summary_todo_1"></string>
+
     <string name="preference_icons_title_copyright">Project Source</string>
-    <string name="preference_support_summary_donate" translatable="false">-
-        (https://github.com/copperate/Paimon-IconPack/releases)
+    <string name="preference_icons_summary_copyright">" [View on Github >>](https://github.com/copperate/Hutao-IconPack) "
+    </string>
+
+    <string name="preference_support_title_donate">Check for updates</string>
+    <string name="preference_support_summary_donate" translatable="false">[View releases](https://github.com/copperate/Hutao-IconPack/releases)
     </string>
     <string name="preference_support_title_todo_1">Our Other Apps</string>
-    <string name="preference_support_summary_todo_1">0 on your phone</string>
+    <string name="preference_support_summary_todo_1">[Sucrose Iconpack](https://github.com/copperate/Sucrose-IconPack)</string>
+
     <string name="preference_support_title_sponsors">Sponsors</string>
     <!-- What's "[xxx](usr:xxx)"? Visit http://nano.by-syk.com/page/donate to set it, and take care of it. -->
     <string name="preference_support_summary_sponsors">[Thank for donating.](usr:bysyk)</string>
+
     <string name="preference_app_title_app">@string/app_name</string>
     <string name="preference_app_summary_app">v%1$s (%2$d)</string>
     <string name="preference_app_title_todo_1"></string>
     <string name="preference_app_summary_todo_1"></string>
-    <string name="preference_icons_summary_copyright">" [View on Github](https://github.com/copperate/Paimon-IconPack)
-        "
-    </string>
-    <string name="preference_support_title_donate">Check for updates</string>
-    <string name="wallpaper_01_title">派蒙壁纸 01</string>
-    <string name="wallpaper_02_title">派蒙壁纸 02</string>
 
+    <string name="wallpaper_01_title">" 胡桃壁纸 01"</string>
+    <string name="wallpaper_02_title">" 胡桃壁纸 02"</string>
+    <string name="wallpaper_03_title">" 胡桃壁纸 03"</string>
+    <string name="wallpaper_04_title">" 胡桃壁纸 04"</string>
+    <string name="wallpaper_05_title">" 胡桃壁纸 05"</string>
 </resources>

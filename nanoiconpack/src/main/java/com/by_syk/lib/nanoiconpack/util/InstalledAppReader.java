@@ -21,7 +21,7 @@ public class InstalledAppReader {
     private static InstalledAppReader instance;
 
     @NonNull
-    private List<Bean> dataList = new ArrayList<>();
+    private final List<Bean> dataList = new ArrayList<>();
 
     private InstalledAppReader(@NonNull PackageManager packageManager) {
         init(packageManager);
@@ -88,13 +88,13 @@ public class InstalledAppReader {
 
     public class Bean {
         @Nullable
-        private String label;
+        private final String label;
 
         @NonNull
-        private String pkg;
+        private final String pkg;
 
         @NonNull
-        private String launcher;
+        private final String launcher;
 
         public Bean(@Nullable String label, @NonNull String pkg, @NonNull String launcher) {
             this.label = label;

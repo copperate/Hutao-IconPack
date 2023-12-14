@@ -27,7 +27,7 @@ public class ResResBean<T> {
     // + Using @SerializedName()
     // + -keep class com.by_syk.lib.nanoiconpack.bean.ResResBean { private *; }
     @SerializedName("status")
-    private int status = -1;
+    private final int status = -1;
 
     @SerializedName("msg")
     private String msg;

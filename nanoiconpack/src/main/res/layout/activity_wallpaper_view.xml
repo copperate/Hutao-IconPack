@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+
+    <android.support.v7.widget.Toolbar
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/icon_grid_light"
+            android:id="@+id/toolbar_wallpaperview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+            android:id="@+id/imageViewWallpaperPreview"
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/wallpaper_01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_wallpaperview"/>
+    <ImageView
+            android:id="@+id/iv_save"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_save_dark"
+            android:scaleType="center"
+            android:layout_width="36dp"
+            android:layout_height="36dp" android:onClick="saveIcon"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_wallpaperview"
+            app:layout_constraintTop_toTopOf="@+id/toolbar_wallpaperview"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            android:id="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_wallpaperview"
+            app:layout_constraintTop_toTopOf="@+id/toolbar_wallpaperview"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar_wallpaperview" android:layout_marginEnd="4dp"
+            android:onClick="closeView"/>
+</android.support.constraint.ConstraintLayout>

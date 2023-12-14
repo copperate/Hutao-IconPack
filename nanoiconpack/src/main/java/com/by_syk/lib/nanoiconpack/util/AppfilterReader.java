@@ -40,9 +40,9 @@ public class AppfilterReader {
     private static AppfilterReader instance;
 
     @NonNull
-    private List<Bean> dataList = new ArrayList<>();
+    private final List<Bean> dataList = new ArrayList<>();
 
-    private static Pattern componentPattern = Pattern.compile("ComponentInfo\\{([^/]+?)/(.+?)\\}");
+    private static final Pattern componentPattern = Pattern.compile("ComponentInfo\\{([^/]+?)/(.+?)\\}");
 
     private AppfilterReader(@NonNull Resources resources) {
         init(resources);
@@ -137,17 +137,17 @@ public class AppfilterReader {
 
     public class Bean {
         @NonNull
-        private String pkg;
+        private final String pkg;
 
         @NonNull
-        private String launcher;
+        private final String launcher;
 
         @NonNull
-        private String drawable;
+        private final String drawable;
 
         // extra
         @NonNull
-        private String drawableNoSeq;
+        private final String drawableNoSeq;
 
         Bean(@NonNull String pkg, @NonNull String launcher, @NonNull String drawable) {
             this.pkg = pkg;

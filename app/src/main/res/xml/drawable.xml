@@ -31,80 +31,100 @@
     <item drawable="drawer" />
     <item drawable="email" />
     <item drawable="gallery" />
+    <item drawable="message" />
     <item drawable="music" />
-    <item drawable="phone" />
+    <item drawable="dialer" />
     <item drawable="settings" />
-    <item drawable="sms" />
+
 
     <category title="Game" /><!-- Copy game icons here from All category -->
+    <item drawable="yuanshen" />
+    <item drawable="yuanshen_alt" />
 
     <category title="Alternative" /><!-- Copy alternative icons here from All category -->
+    <item drawable="drawer_alt_1" />
     <item drawable="drawer_alt_2" />
     <item drawable="drawer_alt_3" />
     <item drawable="drawer_alt_4" />
     <item drawable="drawer_alt_5" />
     <item drawable="drawer_alt_6" />
     <item drawable="drawer_alt_7" />
+    <item drawable="drawer_alt_8" />
 
     <category title="All" /><!-- All icons here -->
     <!-- A -->
-    <!-- B -->
+    <item drawable="alipay" />
+    <item drawable="amap" />
+    <item drawable="backuprestore" />
+    <item drawable="baidu_searchbox" />
+    <item drawable="bbs" />
+    <item drawable="bilibili" />
     <item drawable="browser" />
-    <!-- C -->
-    <item drawable="calendar" />
     <item drawable="calculator" />
+    <item drawable="calendar" />
     <item drawable="camera" />
     <item drawable="clock" />
+    <item drawable="cloudservice" />
     <item drawable="compass" />
     <item drawable="contact" />
-    <!-- D -->
+    <item drawable="ctrip" />
+    <item drawable="dazhongdianping" />
+    <item drawable="dialer" />
+    <item drawable="douyin" />
+    <item drawable="dragon_read" />
     <item drawable="drawer" />
+    <item drawable="drawer_alt_1" />
     <item drawable="drawer_alt_2" />
     <item drawable="drawer_alt_3" />
     <item drawable="drawer_alt_4" />
     <item drawable="drawer_alt_5" />
     <item drawable="drawer_alt_6" />
     <item drawable="drawer_alt_7" />
-    <item drawable="dialer" />
-    <!-- E -->
-    <item drawable="easyshare" />
-    <!-- F -->
-    <!-- G -->
+    <item drawable="drawer_alt_8" />
+    <item drawable="familyguard" />
+    <item drawable="filemanager" />
     <item drawable="gallery" />
-    <!-- H -->
+    <item drawable="gamecenter" />
+    <item drawable="gamespace" />
     <item drawable="health" />
-    <!-- I -->
-    <!-- J -->
-    <!-- K -->
-    <!-- L -->
-    <!-- M -->
+    <item drawable="home" />
+    <item drawable="hoyolab" />
+    <item drawable="hutaoiconpack" />
+    <item drawable="icon_folder" />
+    <item drawable="jingdong" />
+    <item drawable="kuaishou" />
+    <item drawable="mail" />
+    <item drawable="market" />
     <item drawable="message" />
-    <item drawable="messaging" />
     <item drawable="music" />
-    <item drawable="musicplayer" />
-    <!-- N -->
     <item drawable="notes" />
-    <!-- O -->
-    <!-- P -->
-    <item drawable="phone" />
-    <!-- Q -->
-    <!-- R -->
+    <item drawable="playgames" />
+    <item drawable="qq" />
+    <item drawable="qqlive" />
+    <item drawable="qqnews" />
+    <item drawable="reader" />
     <item drawable="recorder" />
-    <!-- S -->
+    <item drawable="security" />
     <item drawable="settings" />
-    <item drawable="sms" />
-    <!-- T -->
-    <!-- U -->
-    <!-- V -->
-    <!-- W -->
+    <item drawable="shortcuts" />
+    <item drawable="stktool" />
+    <item drawable="store" />
+    <item drawable="sucroseiconpack" />
+    <item drawable="sucroseiconpackchibi" />
+    <item drawable="taobao" />
+    <item drawable="theme" />
+    <item drawable="tianyancha" />
+    <item drawable="toutiao" />
+    <item drawable="usercenter" />
+    <item drawable="video" />
+    <item drawable="videoeditor" />
+    <item drawable="voiceassist" />
     <item drawable="wallet" />
     <item drawable="weather" />
-    <!-- X -->
-    <!-- Y -->
-    <!-- Z -->
-    <item drawable="z_home" />
-    <item drawable="z_remotecontroller" />
-    <item drawable="z_shortcuts" />
-    <item drawable="z_voiceassistant" />
-
+    <item drawable="weibo" />
+    <item drawable="weixin" />
+    <item drawable="ximalaya" />
+    <item drawable="yuanshen" />
+    <item drawable="yuanshen_alt" />
+    <item drawable="zhihu" />
 </resources>

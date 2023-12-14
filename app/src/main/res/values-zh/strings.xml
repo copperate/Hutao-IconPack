@@ -18,7 +18,7 @@
 <resources>
 
     <!-- App name -->
-    <string name="app_name">派蒙·图标包</string>
+    <string name="app_name">胡桃·图标包</string>
 
     <!-- About information -->
     <!-- Keep its summary EMPTY (NOT DELETE IT) if you don't want to show certain line. -->
@@ -43,12 +43,12 @@
     <string name="preference_app_title_todo_1"></string>
     <string name="preference_app_summary_todo_1"></string>
     <string name="preference_icons_title_copyright">项目源</string>
-    <string name="preference_support_summary_donate">-</string>
+    <string name="preference_support_summary_donate">"[查看已发布版本](https://github.com/copperate/Hutao-IconPack/releases)"</string>
     <string name="preference_support_title_donate">检查更新</string>
-    <string name="preference_icons_summary_copyright">[在Github上查看](https://github.com/copperate/Paimon-IconPack)</string>
-    <string name="preference_icons_summary_contact">[copperate@iris.web](email:copperate@iris.web)</string>
+    <string name="preference_icons_summary_copyright">[在Github上查看](https://github.com/copperate/Hutao-IconPack)</string>
+    <string name="preference_icons_summary_contact">[copperate@iris.web](email:tk.dropr@outlook.com)</string>
     <string name="preference_icons_summary_author">copperate</string>
     <string name="preference_icons_title_author">制作者</string>
-    <string name="preference_support_summary_todo_1">未发现</string>
+    <string name="preference_support_summary_todo_1">[砂糖·图标包](https://github.com/copperate/Sucrose-IconPack)</string>
 
 </resources>
