@@ -398,7 +398,7 @@ public class ExtraUtil {
      * @param newlyPicFile
      * @return
      */
-    private static boolean record2Gallery(Context context, File newlyPicFile, boolean allInDir) {
+    public static boolean record2Gallery(Context context, File newlyPicFile, boolean allInDir) {
         if (context == null || newlyPicFile == null || !newlyPicFile.exists()) {
             return false;
         }

@@ -33,6 +33,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import static com.by_syk.lib.nanoiconpack.util.ExtraUtil.record2Gallery;
+
 public class WallpaperViewActivity extends AppCompatActivity {
 
 private ActivityWallpaperViewBinding binding;
@@ -73,6 +75,12 @@ private ActivityWallpaperViewBinding binding;
     {
         this.finish();
     }
+
+    public void SetAsWallpaper(View view)
+    {
+        GlobalToast.show(this,"正在设置壁纸……");
+    }
+
     @TargetApi(23)
     public void saveIcon(View view) {
         if (C.SDK >= 23 && this.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -80,7 +88,7 @@ private ActivityWallpaperViewBinding binding;
             requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
             return;
         }
-        String BgName = "HuTao_Wallpaper_";
+        String BgName = (String) getText(R.string.app_name)+"_Wallpaper_";
         boolean ok;
         switch (bgcode)
         {
@@ -145,7 +153,7 @@ private ActivityWallpaperViewBinding binding;
             targetFile.delete();
             return false;
         }
-
+        record2Gallery(context, targetFile, false);
         return true;
     }
 

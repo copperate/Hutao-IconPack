@@ -1,10 +1,2 @@
-/.gradle/*
-/.idea/*
-/gradle/*
-/projectFilesBackup/*
-/build/*
-gradlew
-gradlew.bat
-local.properties
-*.iml
-/reserve
+# 项目排除路径
+/.gradle/

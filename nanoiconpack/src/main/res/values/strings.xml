@@ -101,11 +101,10 @@
     <string name="preference_app_summary_dashboard" translatable="false">
         [https://github.com/by-syk/NanoIconPack](https://github.com/by-syk/NanoIconPack)
     </string>
-    <string name="preference_category_dev">Development</string>
-    <string name="preference_dev_title_stats">Request stats</string>
-    <string name="preference_dev_title_query">Console</string>
+    <string name="preference_category_dev" translatable="false"></string>
+    <string name="preference_dev_title_stats" translatable="false"></string>
+    <string name="preference_dev_title_query" translatable="false"></string>
     <string name="preference_dev_summary_query" translatable="false">
-        [http://nano.by-syk.com](http://nano.by-syk.com/page/query)
     </string>
 
     <string name="send_code">Share app code&#8230;</string>
@@ -128,9 +127,9 @@
     <string name="wallpaper_01_title">Wallpaper 01</string>
     <string name="wallpaper_02_title">Wallpaper 02</string>
     <string name="wallpaper_03_title">Wallpaper 03</string>
-    <string name="wallpaper_04_title">Wallpaper</string>
-    <string name="wallpaper_05_title">Wallpaper</string>
-    <string name="title_activity_wallpaper_view">Wallpaper PreView</string>
+    <string name="wallpaper_04_title">Wallpaper 04</string>
+    <string name="wallpaper_05_title">Wallpaper 05</string>
+    <string name="title_activity_wallpaper_view">Wallpaper Preview</string>
 
     <string name="toast_wallpaper_saved">Saved! (Here:/sdcard/Pictures/Wallpaper)</string>
     <string name="toast_wallpaper_save_failed">Failed to save wallpaper :(</string>

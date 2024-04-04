@@ -88,15 +88,12 @@
     <string name="preference_support_summary_todo_1"></string>
     <string name="preference_support_title_sponsors">赞助者们</string>
     <string name="preference_support_summary_sponsors">[感谢捐赠支持的用户们。](usr:bysyk)</string>
-    <string name="preference_category_app">APP</string>
+    <string name="preference_category_app">关于应用</string>
     <string name="preference_app_title_app">@string/app_name</string>
     <string name="preference_app_summary_app">v%1$s (%2$d)</string>
     <string name="preference_app_title_todo_1"></string>
     <string name="preference_app_summary_todo_1"></string>
     <string name="preference_app_title_dashboard">基于 NanoIconPack v%s</string>
-    <string name="preference_category_dev">开发选项</string>
-    <string name="preference_dev_title_stats">申请统计</string>
-    <string name="preference_dev_title_query">微控制台</string>
 
     <string name="send_code">分享APP代码&#8230;</string>
     <string name="cur_launcher">%s (当前)</string>
@@ -113,5 +110,7 @@
     <string name="preference_category_support">其它信息</string>
     <string name="nav_bg">壁纸</string>
     <string name="title_activity_wallpaper_view">壁纸预览</string>
+    <string name="toast_wallpaper_saved">已保存</string>
+    <string name="toast_wallpaper_save_failed">保存失败</string>
 
 </resources>

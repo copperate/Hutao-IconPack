@@ -14,8 +14,9 @@
             android:label="@string/title_activity_wallpaper_view"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".IconPickActivity" >
-
+        <activity
+                android:name=".IconPickActivity"
+                android:exported="true">
             <!-- For Nova -->
             <intent-filter>
                 <action android:name="com.novalauncher.THEME" />

@@ -32,23 +32,33 @@
          [xxx](xxx)
          -->
     <string name="preference_icons_summary_note"></string>
-    <string name="preference_icons_title_contact">联系作者</string>
+    <string name="preference_icons_title_author">制作者</string>
+    <string name="preference_icons_summary_author">copperate</string>
+    <string name="preference_icons_title_contact">报告问题</string>
+    <string name="preference_icons_summary_contact">-▽-</string>
     <string name="preference_icons_title_todo_1"></string>
-    <string name="preference_icons_summary_todo_1"></string>
+    <string name="preference_icons_summary_todo_1">[邮件 copperate@iris.web](email:tk.dropr@outlook.com)</string>
+    <string name="preference_icons_title_copyright"></string>
+    <string name="preference_icons_summary_copyright">[Bilibili 戏剧小猫](https://space.bilibili.com/3537125012146954)</string>
+
+    <string name="preference_support_title_donate">项目源</string>
+    <string name="preference_support_summary_donate">[在Github上查看](https://github.com/copperate/Hutao-IconPack)</string>
     <string name="preference_support_title_todo_1">我们的其他应用</string>
+    <string name="preference_support_summary_todo_1">[砂糖·图标包](https://github.com/copperate/Sucrose-IconPack)</string>
     <string name="preference_support_title_sponsors">赞助者们</string>
-    <string name="preference_support_summary_sponsors">[感谢捐赠支持的用户们。](usr:bysyk)</string>
+    <string name="preference_support_summary_sponsors"></string>
+
     <string name="preference_app_title_app">@string/app_name</string>
     <string name="preference_app_summary_app">v%1$s (%2$d)</string>
-    <string name="preference_app_title_todo_1"></string>
-    <string name="preference_app_summary_todo_1"></string>
-    <string name="preference_icons_title_copyright">项目源</string>
-    <string name="preference_support_summary_donate">"[查看已发布版本](https://github.com/copperate/Hutao-IconPack/releases)"</string>
-    <string name="preference_support_title_donate">检查更新</string>
-    <string name="preference_icons_summary_copyright">[在Github上查看](https://github.com/copperate/Hutao-IconPack)</string>
-    <string name="preference_icons_summary_contact">[copperate@iris.web](email:tk.dropr@outlook.com)</string>
-    <string name="preference_icons_summary_author">copperate</string>
-    <string name="preference_icons_title_author">制作者</string>
-    <string name="preference_support_summary_todo_1">[砂糖·图标包](https://github.com/copperate/Sucrose-IconPack)</string>
+    <string name="preference_app_title_todo_1">检查更新</string>
+    <string name="preference_app_summary_todo_1">"[查看已发布版本](https://github.com/copperate/Hutao-IconPack/releases)"</string>
+
+
+
+
+
+
+
+
 
 </resources>
